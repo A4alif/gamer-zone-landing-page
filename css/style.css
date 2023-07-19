@@ -301,6 +301,56 @@ li {
   margin-top: 1rem;
 }
 
+/* play games */
+.play-games-section{
+  margin-bottom: 5rem;
+}
+.play-games{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-games-content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.play-games-content h2{
+  font-size: 3rem;
+  line-height: 3.75rem;
+  font-weight: 700;
+}
+.play-games-content p {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  max-width: 22rem;
+  text-align: right;
+}
+.play-games-image{
+  width: 50%;
+}
+.play-games-image{
+  max-width: 28rem;
+  max-height: 38rem;
+  position: relative;
+}
+.play-games-image > img {
+ 
+  width: 100%;
+  height: 100%;
+}
+.play-games-image .play-instant {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  position: absolute;
+  bottom: -40px;
+  left: -150px;
+}
+
 /* Media Queries */
 /* mobile screen */
 @media screen and (max-width: 428px) {
