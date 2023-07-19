@@ -404,10 +404,14 @@ li {
 }
 
 /* action games */
-.action-games-section{
+.action-games-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
 .action-games {
   display: flex;
@@ -415,7 +419,7 @@ li {
   gap: 3.56rem;
   flex-wrap: wrap;
 }
-.action-games-content{
+.action-games-content {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -428,26 +432,26 @@ li {
 }
 .action-games-content .games-name p {
   font-size: 1rem;
-  color: #0B0223;
+  color: #0b0223;
   font-weight: 600;
   line-height: normal;
 }
-.action-games-content:hover{
+.action-games-content:hover {
   background-color: #fff;
-  padding: .3rem .5rem;
+  padding: 0.3rem 0.5rem;
   border: 1px solid #f948b2;
   border-radius: 2rem;
 }
 
 /* footer */
-.footer{
+.footer {
   width: 100%;
-  background: #0B0223;
+  background: #0b0223;
 }
-.footer-content{
+.footer-content {
   text-align: center;
 }
-.footer-logo{
+.footer-logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -455,11 +459,11 @@ li {
   padding-top: 5rem;
   padding-bottom: 4rem;
 }
-.footer-logo .name h2{
+.footer-logo .name h2 {
   color: white;
   font-size: 3rem;
 }
-.footer-content .footer-item{
+.footer-content .footer-item {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -467,7 +471,7 @@ li {
   flex-wrap: wrap;
   padding-bottom: 2.5rem;
 }
-.footer-content .social-icons{
+.footer-content .social-icons {
   color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -479,7 +483,7 @@ li {
   font-size: 2rem;
   margin-right: 2rem;
 }
-.footer-content .terms-condition{
+.footer-content .terms-condition {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -490,12 +494,10 @@ li {
 }
 .footer-content .terms-condition p {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
-.footer-content .copyright{
+.footer-content .copyright {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   padding-bottom: 8rem;
 }
-
-
